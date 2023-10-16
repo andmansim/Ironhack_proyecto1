@@ -1,10 +1,12 @@
-h1{
+h1, h2, h3{
     padding: 10px;
     background-color: rgba(42, 130, 130, 0.614);
 }
-h2, h3{
-    padding: 10px;
-    border: gba(42, 130, 130, 0.614) 2px solid;
+#div1, #div2, #div2-1, #div2-2, #div2-3, #div2-4, #div2-5, #div2-6{
+    margin-bottom: 10px;
+    padding:10px;
+    border: rgba(42, 130, 130, 0.614) 2px solid;
+    font-size: 16px;
 }
 
 
