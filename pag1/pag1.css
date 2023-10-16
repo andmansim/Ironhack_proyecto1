@@ -9,4 +9,7 @@ h1, h2, h3{
     font-size: 16px;
 }
 
-
+#div2-1, #div2-2, #div2-3, #div2-4, #div2-5, #div2-6{
+    margin-left: 5px;
+    margin-right: 5px;
+}
