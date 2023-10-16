@@ -5,19 +5,31 @@
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    margin-bottom: 10px;
-
 }
+
 #div1{
     display: flex;
     text-align: center;
     font-size: 16px;
     margin-bottom: 10px;
     border:rgba(42, 130, 130, 0.614) 2px solid;
+    float: left;
 }
-#div2{
+#parrafo1{
     display: flex;
     text-align: center;
+    font-size: 17px;
+}
+
+#div2{
     font-size: 16px;
     border:rgba(42, 130, 130, 0.614) 2px solid;
+}
+p{
+    display: flex;
+    text-align: left;
+    padding-left: 5px ;
+}
+.margen-abajo{
+    margin-bottom: 10px;
 }
