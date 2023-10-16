@@ -1,0 +1,10 @@
+h1{
+    padding: 10px;
+    background-color: rgba(42, 130, 130, 0.614);
+}
+h2, h3{
+    padding: 10px;
+    border: gba(42, 130, 130, 0.614) 2px solid;
+}
+
+
