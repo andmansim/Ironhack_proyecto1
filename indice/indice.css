@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -15,18 +15,16 @@
     margin-bottom: 10px;
     float: left;
     padding:10px;
+    font-size: 20px;
     border: rgba(42, 130, 130, 0.614) 2px solid;
 }
-#imagen1{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
+
 #div2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     padding:10px;
+    font-size: 17px;
     border: rgba(42, 130, 130, 0.614) 2px solid;
 }
