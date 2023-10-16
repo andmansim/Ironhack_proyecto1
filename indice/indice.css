@@ -1,0 +1,14 @@
+#titulo{
+    width: 100%;
+    height: 5%;
+    padding: 10px;
+    background-color: aqua;
+}
+p{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
