@@ -43,15 +43,30 @@
             
             <h2>Extras</h2>
             <p>
-                Hemos visto antes, que los extras se componen de valores numéricos y no numéricos
-                Tras ajustar todo esto veremos los valores de los extras, dado que estos valores son la suma de los atributos y las habilidades.
-                aguante: Fortaleza + (Voluntad/2) = 11
-                resistencia: aguante * 3 = 33
-                defensa: relflejos + max{forma física, combate} + 5
-                defensa desprevenido: defensa - 3
-                iniciativa: reflejos + (intelecto/2)
-                entereza: voluntad + (intelecto/2)
-                estabilidad mental: entereza * 3
+                Hemos visto antes, que los extras se componen de valores numéricos y no numéricos. 
+                Primero vamos a ajustar los numéricos, estos son consecuencia de operaciones de los atributos y las habilidades. 
+                Los puntos de vida y de cordura se componen de 3 barras como ya he mencionado anteriormente. Los puntos de cada barra son la resistencia y la entereza, respectivamente. 
+                Donde tras multiplicarlo por 3 obtenemos los puntos totales. 
+                Estos se calculan de la siguiente manera:
+                <ul>
+                    <li><a>Aguante: fortaleza + (voluntad/2)</a></li>
+                    <li><a>Entereza: voluntad + (intelecto/2)</a></li>
+                </ul>
+                El resto de extras numéricos son los siguientes:
+                <ul>
+                    <li><a>Defensa: reflejos + max{forma física, combate} + 5</a></li>
+                    <li><a>Defensa desprevenido: defensa - 3</a></li>
+                    <li><a>Iniciativa: reflejos + (intelecto/2)</a></li>
+                </ul>
+                Ej:
+                <ul>
+                    <li><a>Aguante: 9 + (5/2) = 11</a></li>
+                    <li><a>Entereza: 5 + (2/2) = 6</a></li>
+                    <li><a>Defensa: 4 + max{6, 2} + 5 = 15</a></li>
+                    <li><a>Defensa desprevenido: 15 -3 = 12 </a></li>
+                    <li><a>Iniciativa: 4 + (2/2) = 5</a></li>
+                </ul>
+                
             </p>
             
 
