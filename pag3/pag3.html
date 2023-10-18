@@ -91,14 +91,15 @@
                             <li><a>Defensa desprevenido: defensa - 3</a></li>
                             <li><a>Iniciativa: reflejos + (intelecto/2)</a></li>
                         </ul>
-                        Ejemplo:
-                        <ul>
-                            <li><a>Aguante: 9 + (5/2) = 11</a></li>
-                            <li><a>Entereza: 5 + (2/2) = 6</a></li>
-                            <li><a>Defensa: 4 + max{6, 2} + 5 = 15</a></li>
-                            <li><a>Defensa desprevenido: 15 - 3 = 12 </a></li>
-                            <li><a>Iniciativa: 4 + (2/2) = 5</a></li>
-                        </ul>
+                        <form action="/pag3/pag3.html" mathod ='post'>
+                            <ul>
+                                <li><label for="aguante">Aguante: </label><input type="number" id="aguante"></li>
+                                <li><label for="entereza">Entereza: </label><input type="number" id="entereza"></li>
+                                <li><label for="defensa">Defensa: </label><input type="number" id="defensa"></li>
+                                <li><label for="defensaDesprevenido">Defensa desprevenido: </label><input type="number" id="defensaDesprevenido"></li>
+                                <li><label for="iniciativa">Iniciativa: </label><input type="number" id="iniciativa"></li>
+                            </ul>
+                        </form>
                     </p>
                 </div>
                 <div id="div1-3-2">
@@ -115,16 +116,27 @@
                             <li><a>Complicación:efecto negativo</a></li>
                             <li><a>Hitos: mini historias del pasado, se les acompaña con una frase que lo resumen</a></li>
                         </ul>
-                        Ejemplo:
-                        <ul>
-                            <li><a>Nombre: Juan</a></li>
-                            <li><a>Edad: 25</a></li>
-                            <li><a>Apariencia: elfo</a></li>
-                            <li><a>Concepto: Amigable pasota</a></li>
-                            <li><a>Cita: Sí a todo</a></li>
-                            <li><a>Complicación: En su mundo</a></li>
-                            <li><a>Hito: Maltrato físico y psicologico. <br>Historia: Desde pequeña he sufrido múltiples maltratos de mis padres, hasta que un día me harté y decidí pedir a la ama que si me podía conseguir un nuevo dueño. Así, ella me mandó a Nor para servir a mi amo Ketil. </a></li>
-                        </ul>
+                        <form action="/pag3/pag3.html" mathod="post">
+                            <ul>
+                                <li><label for="nombre">Nombre: </label><input type="text" id="nombre"></li>
+                                <li><label for="edad">Edad: </label><input type="number" id="edad"></li>
+                                <li>
+                                    <a>Apariencia: </a><br>
+                                    <input type="radio"><label for="humano">Human@</label>
+                                    <input type="radio"><label for='elfo'>Elf@</label>
+                                    <input type="radio"><label for='enano'>Enan@ </label>
+                                    <input type="radio"><label for='ogroo'>Ogro@ </label>
+                                    <input type="radio"><label for='animal'>Medio-bestia </label>
+                                </li>
+                                <li><label for="concepto">Concepto: </label><input type="text" id="concepto"></li>
+                                <li><label for="cita">Cita: </label><input type="text" id="cita"></li>
+                                <li><label for="complicacion">Complicación: </label><input type="text" id="complicacion"></li>
+                                <li>
+                                    <label for="hitos">Hitos: </label><input type="text" id="hitos"><br>
+                                    <label for= 'historia'>Historia: </label><br><textarea rows="10" cols="30"></textarea>
+                                </li> 
+                            </ul>
+                        </form>
                     </p>
                 </div>
             </div>
