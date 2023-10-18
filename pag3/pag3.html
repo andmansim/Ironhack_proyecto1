@@ -11,13 +11,13 @@
             <div id ='div1-1'>
                 <h2>Atributos</h2>
                 <p>
-                    Tenemos que repartir 20 puntos entre los 4 atributos que hay, siendo el valor mínimo 1 y el máximo 10. Pero debemos de tener en cuenta que estos valores ayudarán a definir el personaje. 
+                    Repartir 20 puntos entre los 4 atributos que hay, siendo el valor mínimo 1 y el máximo 10.
                     <form action="/pag3/pag3.html" mathod="post">
                         <ul>
-                            <li><label for='fortaleza'>Fortaleza: </label><input type ='number' id='fortaleza'></li>
-                            <li><label for='reflejos'>Reflejos: </label><input type ='number' id='reflejos'></li>
-                            <li><label for='voluntad'>Voluntad: </label><input type ='number' id='voluntad'></li>
-                            <li><label for='inteligencia'>Inteligencia: </label><input type ='number' id='inteligencia'></li>
+                            <li><label for='fortaleza'><b>Fortaleza:</b> </label><input type ='number' id='fortaleza'></li>
+                            <li><label for='reflejos'><b>Reflejos:</b> </label><input type ='number' id='reflejos'></li>
+                            <li><label for='voluntad'><b>Voluntad:</b> </label><input type ='number' id='voluntad'></li>
+                            <li><label for='inteligencia'><b>Inteligencia:</b> </label><input type ='number' id='inteligencia'></li>
                         </ul> 
                     </form>
                     
@@ -26,44 +26,44 @@
             <div id ='div1-2'>
                 <h2>Habilidades</h2>
                 <p>
-                    El funcionamiento es igual que en los atributos, debemos de repartir 40 puntos, siendo el mínimo 1 y el máximo 10.
-                    Aunque debemos de añadir una frase a cada habilidad que nos ayudará para definir el personaje y es lo que agotaremos para conseguir puntos de drama extra. 
+                    Repartir 40 puntos, siendo el mínimo 1 y el máximo 10.
+                    Añadir una frase a cada habilidad que nos ayudará para definir el personaje. 
                     <form action="/pag3/pag3.html" mathod="post">
                         <ul>
                             <li>
-                                <label for='formaFisica'>Forma física: </label><input type ='number' id='formaFisica'>
+                                <label for='formaFisica'><b>Forma física:</b> </label><input type ='number' id='formaFisica'>
                                 Frase: <input type='text' id='formaFisicaFrase'>
                             </li>
                             <li>
-                                <label for='combate'>Combate: </label><input type ='number' id='combate'>
+                                <label for='combate'><b>Combate:</b> </label><input type ='number' id='combate'>
                                 Frase: <input type='text' id='combateFrase'>
                             </li>
                             <li>
-                                <label for='interaccion'>Interacción: </label><input type ='number' id='interaccion'>
+                                <label for='interaccion'><b>Interacción:</b> </label><input type ='number' id='interaccion'>
                                 Frase: <input type='text' id='interaccionFrase'>
                             </li>
                             <li>
-                                <label for='percepcion'>Percepción: </label><input type ='number' id='percepcion'>
+                                <label for='percepcion'><b>Percepción:</b> </label><input type ='number' id='percepcion'>
                                 Frase: <input type='text' id='percepcionFrase'>
                             </li>
                             <li>
-                                <label for='subterfugio'>Subterfugio: </label><input type ='number' id='subterfugio'>
+                                <label for='subterfugio'><b>Subterfugio:</b> </label><input type ='number' id='subterfugio'>
                                 Frase: <input type='text' id='subterfugioFrase'>
                             </li>
                             <li>
-                                <label for='cultura'>Cultura: </label><input type ='number' id='cultura'>
+                                <label for='cultura'><b>Cultura:</b> </label><input type ='number' id='cultura'>
                                 Frase: <input type='text' id='culturaFrase'>
                             </li>
                             <li>
-                                <label for='profesion'>Profesión: </label><input type ='number' id='profesion'>
+                                <label for='profesion'><b>Profesión:</b> </label><input type ='number' id='profesion'>
                                 Frase: <input type='text' id='profesionFrase'>
                             </li>
                             <li>
-                                <label for='ocultismo'>Ocultismo: </label><input type ='number' id='ocultismo'>
+                                <label for='ocultismo'><b>Ocultismo:</b> </label><input type ='number' id='ocultismo'>
                                 Frase: <input type='text' id='ocultismoFrase'>
                             </li>
                             <li>
-                                <label for='arcana'>Arcana: </label><input type ='number' id='arcana'>
+                                <label for='arcana'><b>Arcana:</b> </label><input type ='number' id='arcana'>
                                 Frase: <input type='text' id='arcanaFrase'> Magia: <input type='text' id='arcanaMagia'>
                             </li>
                             
@@ -77,27 +77,13 @@
                 <div id="div1-3-1">
                     <h3>Valores numéricos</h3>
                     <p>
-                        Estos son consecuencia de operaciones de los atributos y las habilidades. 
-                        Los puntos de vida y de cordura se componen de 3 barras como ya he mencionado anteriormente. Los puntos de cada barra son la resistencia y la entereza, respectivamente. 
-                        Donde tras multiplicarlo por 3 obtenemos los puntos totales. 
-                        Estos se calculan de la siguiente manera:
-                        <ul>
-                            <li><a>Aguante: fortaleza + (voluntad/2)</a></li>
-                            <li><a>Entereza: voluntad + (intelecto/2)</a></li>
-                        </ul>
-                        El resto de extras numéricos son los siguientes:
-                        <ul>
-                            <li><a>Defensa: reflejos + max{forma física, combate} + 5</a></li>
-                            <li><a>Defensa desprevenido: defensa - 3</a></li>
-                            <li><a>Iniciativa: reflejos + (intelecto/2)</a></li>
-                        </ul>
                         <form action="/pag3/pag3.html" mathod ='post'>
                             <ul>
-                                <li><label for="aguante">Aguante: </label><input type="number" id="aguante"></li>
-                                <li><label for="entereza">Entereza: </label><input type="number" id="entereza"></li>
-                                <li><label for="defensa">Defensa: </label><input type="number" id="defensa"></li>
-                                <li><label for="defensaDesprevenido">Defensa desprevenido: </label><input type="number" id="defensaDesprevenido"></li>
-                                <li><label for="iniciativa">Iniciativa: </label><input type="number" id="iniciativa"></li>
+                                <li><label for="aguante"><b>Aguante:</b> </label><input type="number" id="aguante"></li>
+                                <li><label for="entereza"><b>Entereza:</b> </label><input type="number" id="entereza"></li>
+                                <li><label for="defensa"><b>Defensa:</b> </label><input type="number" id="defensa"></li>
+                                <li><label for="defensaDesprevenido"><b>Defensa desprevenido:</b> </label><input type="number" id="defensaDesprevenido"></li>
+                                <li><label for="iniciativa"><b>Iniciativa:</b> </label><input type="number" id="iniciativa"></li>
                             </ul>
                         </form>
                     </p>
@@ -105,28 +91,17 @@
                 <div id="div1-3-2">
                     <h3>Valores no numéricos</h3>
                     <p>
-                        Son aquellos que indican más la apariencia, personalidad y trasfondo del personaje.
-                        Estos son:
-                        <ul>
-                            <li><a>Nombre</a></li>
-                            <li><a>Edad</a></li>
-                            <li><a>Apariencia</a></li>
-                            <li><a>Concepto: palabra o frase que resuma la esencia del personaje</a></li>
-                            <li><a>Cita: frase que representa la forma de pensar</a></li>
-                            <li><a>Complicación:efecto negativo</a></li>
-                            <li><a>Hitos: mini historias del pasado, se les acompaña con una frase que lo resumen</a></li>
-                        </ul>
                         <form action="/pag3/pag3.html" mathod="post">
                             <ul>
-                                <li><label for="nombre">Nombre: </label><input type="text" id="nombre"></li>
-                                <li><label for="edad">Edad: </label><input type="number" id="edad"></li>
+                                <li><label for="nombre"><b>Nombre:</b> </label><input type="text" id="nombre"></li>
+                                <li><label for="edad"><b>Edad:</b> </label><input type="number" id="edad"></li>
                                 <li>
-                                    <a>Apariencia: </a><br>
-                                    <input type="radio"><label for="humano">Human@</label>
-                                    <input type="radio"><label for='elfo'>Elf@</label>
-                                    <input type="radio"><label for='enano'>Enan@ </label>
-                                    <input type="radio"><label for='ogroo'>Ogro@ </label>
-                                    <input type="radio"><label for='animal'>Medio-bestia </label>
+                                    <a><b>Apariencia:</b></a>
+                                    <input type="radio" name="apariencia"><label for="humano">Human@</label>
+                                    <input type="radio" name="apariencia"><label for='elfo'>Elf@</label>
+                                    <input type="radio" name="apariencia"><label for='enano'>Enan@ </label>
+                                    <input type="radio" name="apariencia"><label for='ogroo'>Ogro@ </label>
+                                    <input type="radio" name="apariencia"><label for='animal'>Medio-bestia </label>
                                 </li>
                                 <li><label for="concepto">Concepto: </label><input type="text" id="concepto"></li>
                                 <li><label for="cita">Cita: </label><input type="text" id="cita"></li>
