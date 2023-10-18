@@ -13,17 +13,11 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
-    float: left;
     padding:10px;
     font-size: 16px;
     border: rgba(42, 130, 130, 0.614) 2px solid;
 }
-
 #div2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
     padding:10px;
     font-size: 16px;
     border: rgba(42, 130, 130, 0.614) 2px solid;
@@ -34,5 +28,4 @@
     font-size: large;
     font-size: 16px;
     background-color:rgba(42, 130, 130, 0.614);
-    
 }
