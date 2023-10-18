@@ -14,7 +14,7 @@
                 <h2>Atributos</h2>
                 <p>
                     Tenemos que repartir 20 puntos entre los 4 atributos que hay, siendo el valor mínimo 1 y el máximo 10. Pero debemos de tener en cuenta que estos valores ayudarán a definir el personaje.
-                    Ej: 
+                    Ejemplo: 
                     <ul>
                         <li><a>Fortaleza: 9</a></li>
                         <li><a>Reflejos: 4</a></li>
@@ -29,7 +29,7 @@
                 <p>
                     El funcionamiento es igual que en los atributos, debemos de repartir 40 puntos, siendo el mínimo 1 y el máximo 10.
                     Aunque debemos de añadir una frase a cada habilidad que nos ayudará para definir el personaje y es lo que agotaremos para conseguir puntos de drama extra. 
-                    Ej: 
+                    Ejemplo: 
                     <ul>
                         <li><a>Forma física: 6 -> cuerpo atleta</a></li>
                         <li><a>Combate: 2 -> no le pegaría ni a una mosca</a></li>
@@ -49,51 +49,56 @@
                 <p>Hemos visto antes, que los extras se componen de valores numéricos y no numéricos.</p>
                 <div id="div1-3-1">
                     <h3>Valores numéricos</h3>
-                    Estos son consecuencia de operaciones de los atributos y las habilidades. 
-                    Los puntos de vida y de cordura se componen de 3 barras como ya he mencionado anteriormente. Los puntos de cada barra son la resistencia y la entereza, respectivamente. 
-                    Donde tras multiplicarlo por 3 obtenemos los puntos totales. 
-                    Estos se calculan de la siguiente manera:
-                    <ul>
-                        <li><a>Aguante: fortaleza + (voluntad/2)</a></li>
-                        <li><a>Entereza: voluntad + (intelecto/2)</a></li>
-                    </ul>
-                    El resto de extras numéricos son los siguientes:
-                    <ul>
-                        <li><a>Defensa: reflejos + max{forma física, combate} + 5</a></li>
-                        <li><a>Defensa desprevenido: defensa - 3</a></li>
-                        <li><a>Iniciativa: reflejos + (intelecto/2)</a></li>
-                    </ul>
-                    Ej:
-                    <ul>
-                        <li><a>Aguante: 9 + (5/2) = 11</a></li>
-                        <li><a>Entereza: 5 + (2/2) = 6</a></li>
-                        <li><a>Defensa: 4 + max{6, 2} + 5 = 15</a></li>
-                        <li><a>Defensa desprevenido: 15 -3 = 12 </a></li>
-                        <li><a>Iniciativa: 4 + (2/2) = 5</a></li>
-                    </ul>
+                    <p>
+                        Estos son consecuencia de operaciones de los atributos y las habilidades. 
+                        Los puntos de vida y de cordura se componen de 3 barras como ya he mencionado anteriormente. Los puntos de cada barra son la resistencia y la entereza, respectivamente. 
+                        Donde tras multiplicarlo por 3 obtenemos los puntos totales. 
+                        Estos se calculan de la siguiente manera:
+                        <ul>
+                            <li><a>Aguante: fortaleza + (voluntad/2)</a></li>
+                            <li><a>Entereza: voluntad + (intelecto/2)</a></li>
+                        </ul>
+                        El resto de extras numéricos son los siguientes:
+                        <ul>
+                            <li><a>Defensa: reflejos + max{forma física, combate} + 5</a></li>
+                            <li><a>Defensa desprevenido: defensa - 3</a></li>
+                            <li><a>Iniciativa: reflejos + (intelecto/2)</a></li>
+                        </ul>
+                        Ejemplo:
+                        <ul>
+                            <li><a>Aguante: 9 + (5/2) = 11</a></li>
+                            <li><a>Entereza: 5 + (2/2) = 6</a></li>
+                            <li><a>Defensa: 4 + max{6, 2} + 5 = 15</a></li>
+                            <li><a>Defensa desprevenido: 15 -3 = 12 </a></li>
+                            <li><a>Iniciativa: 4 + (2/2) = 5</a></li>
+                        </ul>
+                    </p>
                 </div>
                 <div id="div1-3-2">
-                    Los extras no numéricos son aquellos que indican más la apariencia, personalidad y trasfondo del personaje.
-                    Estos son:
-                    <ul>
-                        <li><a>Nombre</a></li>
-                        <li><a>Edad</a></li>
-                        <li><a>Apariencia</a></li>
-                        <li><a>Concepto: palabra o frase que resuma la esencia del personaje</a></li>
-                        <li><a>Cita: frase que representa la forma de pensar</a></li>
-                        <li><a>Complicación:efecto negativo</a></li>
-                        <li><a>Hitos: mini historias del pasado, se les acompaña con una frase que lo resumen</a></li>
-                    </ul>
-                    Ej:
-                    <ul>
-                        <li><a>Nombre: Juan</a></li>
-                        <li><a>Edad: 25</a></li>
-                        <li><a>Apariencia: elfo</a></li>
-                        <li><a>Concepto: Amigable pasota</a></li>
-                        <li><a>Cita: Sí a todo</a></li>
-                        <li><a>Complicación: En su mundo</a></li>
-                        <li><a>Hito: Maltrato físico y psicologico. Historia:Desde pequeña he sufrido múltiples maltratos de mis padres, hasta que un día me harté y decidí pedir a la ama que si me podía conseguir un nuevo dueño. Así, ella me mandó a Nor para servir a mi amo Ketil. </a></li>
-                    </ul>
+                    <h3>Valores no numéricos</h3>
+                    <p>
+                        Son aquellos que indican más la apariencia, personalidad y trasfondo del personaje.
+                        Estos son:
+                        <ul>
+                            <li><a>Nombre</a></li>
+                            <li><a>Edad</a></li>
+                            <li><a>Apariencia</a></li>
+                            <li><a>Concepto: palabra o frase que resuma la esencia del personaje</a></li>
+                            <li><a>Cita: frase que representa la forma de pensar</a></li>
+                            <li><a>Complicación:efecto negativo</a></li>
+                            <li><a>Hitos: mini historias del pasado, se les acompaña con una frase que lo resumen</a></li>
+                        </ul>
+                        Ejemplo:
+                        <ul>
+                            <li><a>Nombre: Juan</a></li>
+                            <li><a>Edad: 25</a></li>
+                            <li><a>Apariencia: elfo</a></li>
+                            <li><a>Concepto: Amigable pasota</a></li>
+                            <li><a>Cita: Sí a todo</a></li>
+                            <li><a>Complicación: En su mundo</a></li>
+                            <li><a>Hito: Maltrato físico y psicologico. Historia:Desde pequeña he sufrido múltiples maltratos de mis padres, hasta que un día me harté y decidí pedir a la ama que si me podía conseguir un nuevo dueño. Así, ella me mandó a Nor para servir a mi amo Ketil. </a></li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>
