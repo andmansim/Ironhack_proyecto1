@@ -1,11 +1,13 @@
-.elemento-comun{display: none;} /* Ocultar elementos comunes */
-@media screen and (max-width: 768px) { /* Mostrar elementos comunes en pantallas pequeñas */
+.elemento-ordena{display: none;} /* quita todos los elementos con esta clase*/
+.elemento-movil{display: none;} 
+@media screen and (max-width: 768px) { /* Muestra los elementos especiales en pantallas pequeñas*/
     body {
         font-size: 16px;
     }
     header {
         background-color: rgba(42, 130, 130, 0.614);
     }
+    .elemento-movil{display: block;}
     #titulo{
         padding: 10px;
         background-color: rgba(42, 130, 130, 0.614);
@@ -17,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 769px) { /* Mostrar elementos comunes en pantallas grandes */
+@media screen and (min-width: 769px) { /* Muestra los elementos especiales en pantallas grandes */
     body {
         font-size: 18px;
     }
@@ -27,7 +29,7 @@
         width: 100%;
         font-size: 20px;
     }
-    .elemento-comun{display: block;} /* Mostrar elementos comunes */
+    .elemento-ordena{display: block;} /* Mostrar elementos comunes */
     #titulo0{
         display: flex;
         align-items: center;
