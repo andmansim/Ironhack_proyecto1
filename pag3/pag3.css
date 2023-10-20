@@ -17,6 +17,10 @@
         font-size: 40px;
         margin-bottom: 10px;
     }
+    body h1{
+        padding: 10px;
+        background-color: rgba(42, 130, 130, 0.614);
+    }
 }
 
 @media screen and (min-width: 769px) { /* Muestra los elementos especiales en pantallas grandes */
@@ -28,6 +32,7 @@
     body{
         font-size: 18px;
     }
+
     #titulo0{
         display: flex;
         align-items: center;
@@ -36,6 +41,10 @@
         margin-bottom: 10px;
         padding: 10px;
     
+    }
+    body h1{
+        padding: 10px;
+        background-color: rgba(42, 130, 130, 0.614);
     }
     header nav ul {
         list-style: none; /* Elimina los marcadores de lista */
@@ -55,7 +64,7 @@
         text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
     }
 }
-h1, h2, h3{
+h2, h3{
     padding: 10px;
     background-color: rgba(42, 130, 130, 0.614);
 }
