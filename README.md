@@ -1,2 +1,2 @@
-# Ironhack_proyecto1
-https://github.com/andmansim/misterioOteatis.github.io.git
+# Ironhack_proyecto1 (Web misterio de Oteatis)
+https://github.com/andmansim/mistOteatis.github.io.git
