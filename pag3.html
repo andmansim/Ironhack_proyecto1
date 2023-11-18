@@ -25,13 +25,14 @@
                 <h2>Atributos</h2>
                 <p>
                     Repartir 20 puntos entre los 4 atributos que hay, siendo el valor mínimo 1 y el máximo 10.
-                    <form action="/pag3/pag3.html" mathod="post">
+                    <form action="/guardar_datos" mathod="post"> //action apunta al servidor flask
                         <ul>
                             <li><label for='fortaleza'><b>Fortaleza:</b> </label><input type ='number' id='fortaleza'></li>
                             <li><label for='reflejos'><b>Reflejos:</b> </label><input type ='number' id='reflejos'></li>
                             <li><label for='voluntad'><b>Voluntad:</b> </label><input type ='number' id='voluntad'></li>
                             <li><label for='inteligencia'><b>Inteligencia:</b> </label><input type ='number' id='inteligencia'></li>
                         </ul> 
+                        <button type="button" onclick="recogeryEnviarDatos()">Guardar</button>
                     </form>
                     
                 </p>
